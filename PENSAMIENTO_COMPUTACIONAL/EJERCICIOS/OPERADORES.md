@@ -12,11 +12,20 @@ FINALMENTE SE RESUELVEN LOS ULTIMOS DOS RESULTADOS DE LAS OPERACIONES QUE SE ENC
 
 X = (5 + 2 * 4) – (25 +. 5)2
 (5+8)-(25+.5)2
-13-
+13-49=-36
 
 X = (100/5^2 + 1) + 11 * 3
+(100/25+1)+33
+4+1+33
+5+33
+38
 
-X = ((8-6)^2*3)^3.
+X = ((8-6)^2*3)^3
+(-2^6)^3
+-64^3
+-262144
+
+
 
 
 ## OPERADORES RELACIONALES
@@ -37,5 +46,5 @@ Reto. Evalúa las siguientes expresiones a la derecha.
 1) (45<120 OR 12<120) = TRUE
 2) (6! =6) && (12>22)) = FALSE
 3) ¬ (128<145 && 12>9) = FALSE
-4) “Daniela”< >”DANIELA” =
-5) 10*20< >210 =
+4) “Daniela”< >”DANIELA” = FALSE
+5) 10*20< >210 = TRUE
