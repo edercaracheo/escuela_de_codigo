@@ -3,7 +3,16 @@ Reto. Describe el proceso en que se computa las siguientes fórmulas.
 
 X = (18/9 * 2 + 16) – ( 5 * 4 – 3^3)
 
+SE AGRUPAN LOS TERMINOS DENTRO DEL PARENTESIS, REALIZANDO LO QUE HAY EN EL PRIMERO DE IZQ A DER
+(18/9*2+16)=2*2+16=4+16=20
+SE REALIZA LO QUE HAY EN EL SEGUNDO DE IZQ A DER
+-(5*4-3^3)=-(5*4-27)=-(20+27)=-7
+FINALMENTE SE RESUELVEN LOS ULTIMOS DOS RESULTADOS DE LAS OPERACIONES QUE SE ENCONTRABAN DENTRO DEL PARENTESIS
+20-7=13
+
 X = (5 + 2 * 4) – (25 +. 5)2
+(5+8)-(25+.5)2
+13-
 
 X = (100/5^2 + 1) + 11 * 3
 
@@ -25,8 +34,8 @@ mayor que “F”. ¿Cuál es el menor de todos?
 
 ## OPERADORES LOGICOS
 Reto. Evalúa las siguientes expresiones a la derecha.
-1) (45<120 OR 12<120) =
-2) (6! =6) && (12>22)) =
-3) ¬ (128<145 && 12>9) =
+1) (45<120 OR 12<120) = TRUE
+2) (6! =6) && (12>22)) = FALSE
+3) ¬ (128<145 && 12>9) = FALSE
 4) “Daniela”< >”DANIELA” =
 5) 10*20< >210 =
