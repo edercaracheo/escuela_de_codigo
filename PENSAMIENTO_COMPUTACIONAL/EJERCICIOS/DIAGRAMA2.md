@@ -5,4 +5,7 @@
 
 
 3. Realiza un algoritmo y diagrama de flujo de un programa que resuelva el sigueinte problema: Solicitando se ingresen 4 calificaciones, una por periodo, se obtenga el promedio y se imprima una felicitación a quien obtenga un promedio mayor a 6, y se le informe ha reprobado a quien obtenga una calificacion menor a 6.
-4. Realizar un algoritmo y diagrama de flujo para un programa que solicite un número e indique si es par o impar.
+![image](https://user-images.githubusercontent.com/101481181/160206531-8d845dea-4df0-45fb-8fbc-6aacab873e2c.png)
+
+
+5. Realizar un algoritmo y diagrama de flujo para un programa que solicite un número e indique si es par o impar.
