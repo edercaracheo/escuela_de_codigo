@@ -26,6 +26,9 @@ Convierte los siguientes ejercicios realizado durante el taller a pseudocodigo.
 
 6. Programa que pida 3 números y los muestre en pantalla de menor a mayor.
 
+![image](https://user-images.githubusercontent.com/101481181/160939729-634c1e1f-8131-4b20-9a95-4a540a71974d.png)
+
+
 7. Realizar un algoritmo y diagrama de flujo para un programa que permita ingresar un nombre y una cantidad numérica para que así después el programa escriba este nombre tantas veces como su cantidad ingresada.
 
 8. Realiza un algoritmo y diagrama de flujo de un programa que solicita números al usuario y haga la suma de todos ellos. El algoritmo debe solicitar números siempre y cuando el número ingresado sea positivo, si el usuario ingresa un número no positivo el algoritmo debe terminar e imprimir la suma de los números positivos.
