@@ -6,40 +6,28 @@ Ingresa al siguiente link para el resumen final
 https://docs.google.com/presentation/d/17LildSvlBpnu-FRpMW1ITRiO21_f3Z0cF9q1Zrs6K5U/edit?usp=sharing
 
 
-Algoritmo adivinanza
-	
-	
-	definir num, incognita, i Como Entero
-	
-	i=10
-	
-	Escribir "Dame un numero para adivinar"
-	leer incognita
-	
-	Para i=0 Hasta 10 Con Paso 1 Hacer
-		Escribir "Dame un numero"
-		leer num
-		Si num==incognita
-			
-			Entonces
-			escribir "Felicidades, adivinaste el numero"
-			
-		Sino
-			
-			Si num<incognita
-				escribir "tu numero es menor, dame otro numero"
-				
+Algoritmo adivina_el_numero
+		intentos<-10
+		num_secreto <- azar(100)+1
+		
+		Escribir "Adivine el numero:"
+		Leer num_ingresado
+		Mientras num_secreto<>num_ingresado Y intentos>1 Hacer
+			Si num_secreto>num_ingresado Entonces
+				Escribir "Muy bajo"
 			Sino 
-				escribir "tu numero es mayor, dame otro numero"
-					
-					i=i+1
-					
-					Si i==10 Entonces
-						escribir "Perdiste tus 10 oportunidades, el numero era " incognita
-						
-					FinSi
-				FinSi
-				FinSi
-				
-	Fin Para
+				Escribir "Muy alto"
+			FinSi
+			intentos <- intentos-1
+			Escribir "Le quedan ",intentos," intentos:"
+			Leer num_ingresado
+		FinMientras
+		
+		Si num_secreto=num_ingresado Entonces
+			Escribir "Exacto! Usted adivino en ",intentos," intentos."
+		Sino
+			Escribir "El numero era: ",num_secreto
+		FinSi
 FinAlgoritmo
+
+![image](https://user-images.githubusercontent.com/101481181/161403172-16e41587-be0a-4acb-b96a-75874bd37c19.png)
